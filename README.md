@@ -64,10 +64,12 @@ https://documenter.getpostman.com/view/44292827/2sB2j6AB81
   * https://codepen.io/crimarino2002/pen/xbbjQNQ
 
 Notas
-• Todos los procesos de predicción y consulta avanzada están encapsulados en procedimientos almacenados en SQL Server.
-• La API está lista para ser conectada a microservicios adicionales si es necesario escalar el sistema.
-• La colección tiene adjuntas las variables modificables para la utlización de los servicios.
+* Todos los procesos de predicción y consulta avanzada están encapsulados en procedimientos almacenados en SQL Server.
+* La API está lista para ser conectada a microservicios adicionales si es necesario escalar el sistema.
+* La colección tiene adjuntas las variables modificables para la utlización de los servicios.
+* Los SPs puedes descargarlos en este repositorio. https://github.com/crimarino2002/SPs
 
+  
 Autor
-• Nombre: Cristhian Mariño
-• LinkedIn: https://www.linkedin.com/in/cristhian-almg/
+* Nombre: Cristhian Mariño
+* LinkedIn: https://www.linkedin.com/in/cristhian-almg/

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales_Date_Prediction.API", "Sales_Date_Prediction.API\Sales_Date_Prediction.API.csproj", "{3C130D02-AD27-40E5-B73F-86DE4B5EAFD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales_Date_Prediction.SharedKernel", "Sales_Date_Prediction.SharedKernel\Sales_Date_Prediction.SharedKernel.csproj", "{85A901EA-413D-4869-B89A-BFE41D1287CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales_Date_Prediction.Application", "Sales_Date_Prediction.Application\Sales_Date_Prediction.Application.csproj", "{E6B7D2E4-FDCA-4A6D-B271-8F0E57CCAFAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales_Date_Prediction.Domain", "Sales_Date_Prediction.Domain\Sales_Date_Prediction.Domain.csproj", "{026DB4C9-E20C-433E-A30B-545EBD2DE668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales_Date_Prediction.Persistence", "Sales_Date_Prediction.Persistence\Sales_Date_Prediction.Persistence.csproj", "{9A7BBF69-B8FA-4CE7-8B44-B9D7107A8787}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C130D02-AD27-40E5-B73F-86DE4B5EAFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C130D02-AD27-40E5-B73F-86DE4B5EAFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C130D02-AD27-40E5-B73F-86DE4B5EAFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C130D02-AD27-40E5-B73F-86DE4B5EAFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85A901EA-413D-4869-B89A-BFE41D1287CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A901EA-413D-4869-B89A-BFE41D1287CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A901EA-413D-4869-B89A-BFE41D1287CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A901EA-413D-4869-B89A-BFE41D1287CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B7D2E4-FDCA-4A6D-B271-8F0E57CCAFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B7D2E4-FDCA-4A6D-B271-8F0E57CCAFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B7D2E4-FDCA-4A6D-B271-8F0E57CCAFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B7D2E4-FDCA-4A6D-B271-8F0E57CCAFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026DB4C9-E20C-433E-A30B-545EBD2DE668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026DB4C9-E20C-433E-A30B-545EBD2DE668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026DB4C9-E20C-433E-A30B-545EBD2DE668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026DB4C9-E20C-433E-A30B-545EBD2DE668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A7BBF69-B8FA-4CE7-8B44-B9D7107A8787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7BBF69-B8FA-4CE7-8B44-B9D7107A8787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A7BBF69-B8FA-4CE7-8B44-B9D7107A8787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7BBF69-B8FA-4CE7-8B44-B9D7107A8787}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD015302-D65A-4F67-9472-DA53CE680EFE}
+	EndGlobalSection
+EndGlobal

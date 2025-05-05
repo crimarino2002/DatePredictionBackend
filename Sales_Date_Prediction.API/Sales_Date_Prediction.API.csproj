@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sales_Date_Prediction.Application\Sales_Date_Prediction.Application.csproj" />
+    <ProjectReference Include="..\Sales_Date_Prediction.Domain\Sales_Date_Prediction.Domain.csproj" />
+    <ProjectReference Include="..\Sales_Date_Prediction.Persistence\Sales_Date_Prediction.Persistence.csproj" />
+    <ProjectReference Include="..\Sales_Date_Prediction.SharedKernel\Sales_Date_Prediction.SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>
